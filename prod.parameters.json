@@ -4,13 +4,13 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "appServiceAppName": {
-            "value": "afernandez-app-bicep"
+            "value": "afernandez-app-prod-bicep"
         },
         "appServicePlanName": {
-            "value": "afernandez-app-bicep"
+            "value": "afernandez-app-prod-bicep"
         },
         "storageAccountName": {
-            "value": "afernandezstorage"
+            "value": "afernandezprodstorage"
         }
     }
 }
