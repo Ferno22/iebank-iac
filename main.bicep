@@ -18,7 +18,6 @@ param storageAccountName string = 'aferandezstorage'
   param location string = resourceGroup().location
 
   var storageAccountSkuName = (environmentType == 'prod') ? 'Standard_GRS' : 'Standard_LRS'
-  var appServicePlanSkuName = (environmentType == 'prod') ? 'P2V3' : 'F1'
 
 
 resource storageAccount 'Microsoft.Storage/storageAccounts@2022-05-01' = {

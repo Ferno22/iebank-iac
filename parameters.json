@@ -3,11 +3,14 @@
 "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "<first-parameter-name>": {
-            "value": "<first-value>"
+        "appServiceAppName": {
+            "value": "afernandez-app-bicep"
         },
-        "<second-parameter-name>": {
-            "value": "<second-value>"
+        "appServicePlanName": {
+            "value": "afernandez-app-bicep"
+        },
+        "storageAccountName": {
+            "value": "afernandezstorage"
         }
     }
 }
